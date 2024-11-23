@@ -2,8 +2,8 @@ import requests
 from bs4 import BeautifulSoup
 from pathlib import Path
 
-class SmileyDownloader:
 
+class SmileyDownloader:
     def __init__(self, url, download_dir="smileys"):
         self.url = url
         self.download_dir = Path(download_dir)
@@ -14,7 +14,7 @@ class SmileyDownloader:
         response = requests.get(self.url)
         soup = BeautifulSoup(response.content, "html.parser")
         images = soup.select("table.wikitable img")
-        
+
         print(f"Starts downloading into {self.download_dir}")
         for image in images:
             self.download_smiley(image)
