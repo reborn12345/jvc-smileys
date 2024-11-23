@@ -42,10 +42,31 @@ https://github.com/reborn12345/jvc-smileys/blob/main/smileys/1.gif
 https://your-username.github.io/your-repository-name/smileys/9.gif
 ...etc.
 
-## Userscript Integration (Planned)
+## Userscript Integration
 
-A userscript will be developed to simplify the use of these smileys on JVFlux (and potentially other platforms). Stay tuned for updates!
+Spice up your JVFlux (or other forum) experience with animated smileys!  This project includes a userscript that seamlessly integrates the downloaded smileys, replacing the static defaults with dynamic animated GIFs.
 
+**How it Works:**
+
+The userscript cleverly intercepts the loading of default smileys and matches their `data-code` attributes to the corresponding animated GIFs hosted on GitHub Pages. It then dynamically replaces the image sources, bringing your conversations to life!
+
+**Installation:**
+
+1. **Get a Userscript Manager:**  You'll need a userscript manager to install and run the script. Here are some popular options:
+
+    * **Chrome/Edge:** [Tampermonkey](https://www.tampermonkey.net/)
+    * **Firefox:** [Violentmonkey](https://violentmonkey.github.io/) or [Tampermonkey](https://www.tampermonkey.net/)
+    * **Other Browsers:** Look for a compatible userscript manager in your browser's extension store.
+
+2. **Install the Userscript:**
+
+    Click the "Install" button below (or copy the raw code from [userscript/jvflux-smileys.user.js](userscript/jvflux-smileys.user.js)).  This should automatically open your userscript manager.
+
+
+    [![Install Userscript](https://img.shields.io/badge/Install%20Userscript-Click%20Here-brightgreen?style=for-the-badge&logo=tampermonkey)](https://update.greasyfork.org/scripts/518633/JVC%20Smiley%20anim%C3%A9s.user.js)
+
+
+3. **Enable the Script:** Make sure the script is enabled in your userscript manager.  That's it!  Head over to JVFlux (or the target forum) and enjoy the animated smileys!
 
 ## Contributing
 

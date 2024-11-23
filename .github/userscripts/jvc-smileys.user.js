@@ -4,16 +4,17 @@
 // @version      1.0
 // @description  Réactive les smileys animés sur le forum jeuxvideo.com
 // @author       HulkDu92
-// @match        https://www.jeuxvideo.com/forums/*
+// @match        https://www.jeuxvideo.com/*
 // @grant        none
+// @license      MIT
 // ==/UserScript==
 
 (function() {
     'use strict';
 
-    const smileyBaseURL = "https://reborn12345.github.io/jvc-smileys/smileys/"; // URL de base de vos smileys, à ajuster
+    const smileyBaseURL = "https://reborn12345.github.io/jvc-smileys/smileys/"; // URL des smileys animés
     
-     // Mapping of JVC smiley codes to your custom filenames
+     // Mapping des codes des smileys avec leur nom de fichier équivalent
      const smileyMap = {
         ":)": "1",
         ":snif:" : "20",
