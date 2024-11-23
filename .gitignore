@@ -1,2 +1,4 @@
 .gif
 smileys/
+.ruff_cache/
+__pycache__
