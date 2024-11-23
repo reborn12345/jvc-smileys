@@ -1,4 +1,4 @@
-# JVFlux Smileys Downloader
+# JVC Smileys Animés
 
 [![Contributors][contributors-shield]][contributors-url]
 [![MIT License][license-shield]][license-url]
@@ -7,7 +7,7 @@
 [![Issues][issues-shield]][issues-url]
 
 
-This project provides a Python script to download smiley GIFs from JVFlux and makes them available for use in userscripts to in order to correct JVC smileys freezing.
+Ce projet fournit un script Python pour télécharger les GIFs des smileys de JVFlux et les rend disponibles pour une utilisation dans un userscript afin de corriger le problème de figeage des smileys JVC.
 
 <p align="center">
   <img src="smileys/39.gif" alt="Smiley Example 39" width="32" height="32">
@@ -16,61 +16,61 @@ This project provides a Python script to download smiley GIFs from JVFlux and ma
 </p>
 
 
-## Features
+## Fonctionnalités
 
-* Downloads all available smileys from JVFlux.
-* Saves smileys as GIF files in the `/smileys/` directory.
-* Hosted on GitHub Pages for easy access ([Your GitHub Pages URL]).  *Replace with your actual URL*
-* Planned userscript integration for seamless smiley usage.
+* Télécharge tous les smileys disponibles sur JVFlux.
+* Enregistre les smileys sous forme de fichiers GIF dans le répertoire `/smileys/`.
+* Hébergé sur GitHub Pages pour un accès facile ([https://reborn12345.github.io/jvc-smileys/]).
+* Intégration d'un userscript prévue pour une utilisation transparente des smileys.
 
 
-## Usage
+## Utilisation
 
-**1. Downloading the Smileys:**
+**1. Téléchargement des Smileys:**
 
-* **Using the script:**
-    * Clone this repository: `git clone https://github.com/your-username/your-repository-name.git`
-    * Install the required packages: `pip install -r requirements.txt`
-    * Run the script: `python src/download_smileys.py`
+* **Utilisation du script:**
+    * Clonez ce dépôt : `git clone https://github.com/votre-nom-utilisateur/nom-de-votre-depot.git`
+    * Installez les paquets requis : `pip install -r requirements.txt`
+    * Exécutez le script : `python src/download_smileys.py`
 
-The smileys will be downloaded to the `smileys` directory in your project.
+Les smileys seront téléchargés dans le répertoire `smileys` de votre projet.
 
-**2. Accessing the Smileys (GitHub Pages):**
+**2. Accès aux Smileys (GitHub Pages):**
 
-The smileys are also hosted on GitHub Pages, allowing direct access via URLs like these:
-https://github.com/reborn12345/jvc-smileys/blob/main/smileys/1.gif
-https://your-username.github.io/your-repository-name/smileys/9.gif
+Les smileys sont également hébergés sur GitHub Pages, permettant un accès direct via des URLs comme celles-ci :
+`https://github.com/reborn12345/jvc-smileys/blob/main/smileys/1.gif`
+`https://votre-nom-utilisateur.github.io/nom-de-votre-depot/smileys/9.gif`
 ...etc.
 
-## Userscript Integration
+## Intégration Userscript
 
-Spice up your JVFlux (or other forum) experience with animated smileys!  This project includes a userscript that seamlessly integrates the downloaded smileys, replacing the static defaults with dynamic animated GIFs.
+Agrémentez votre expérience JVFlux (ou autre forum) avec des smileys animés ! Ce projet inclut un userscript qui intègre de manière transparente les smileys téléchargés, remplaçant les smileys statiques par défaut par des GIFs animés dynamiques.
 
-**How it Works:**
+**Comment ça marche :**
 
-The userscript cleverly intercepts the loading of default smileys and matches their `data-code` attributes to the corresponding animated GIFs hosted on GitHub Pages. It then dynamically replaces the image sources, bringing your conversations to life!
+Le userscript intercepte intelligemment le chargement des smileys par défaut et fait correspondre leurs attributs `data-code` aux GIFs animés correspondants hébergés sur GitHub Pages. Il remplace ensuite dynamiquement les sources des images, donnant vie à vos conversations !
 
-**Installation:**
+**Installation :**
 
-1. **Get a Userscript Manager:**  You'll need a userscript manager to install and run the script. Here are some popular options:
+1. **Obtenir un gestionnaire de Userscripts :** Vous aurez besoin d'un gestionnaire de userscripts pour installer et exécuter le script. Voici quelques options populaires :
 
-    * **Chrome/Edge:** [Tampermonkey](https://www.tampermonkey.net/)
-    * **Firefox:** [Violentmonkey](https://violentmonkey.github.io/) or [Tampermonkey](https://www.tampermonkey.net/)
-    * **Other Browsers:** Look for a compatible userscript manager in your browser's extension store.
+    * **Chrome/Edge :** [Tampermonkey](https://www.tampermonkey.net/)
+    * **Firefox :** [Violentmonkey](https://violentmonkey.github.io/) ou [Tampermonkey](https://www.tampermonkey.net/)
+    * **Autres navigateurs :** Recherchez un gestionnaire de userscripts compatible dans la boutique d'extensions de votre navigateur.
 
-2. **Install the Userscript:**
+2. **Installer le Userscript :**
 
-    Click the "Install" button below (or copy the raw code from [userscript/jvflux-smileys.user.js](userscript/jvflux-smileys.user.js)).  This should automatically open your userscript manager.
-
-
-    [![Install Userscript](https://img.shields.io/badge/Install%20Userscript-Click%20Here-brightgreen?style=for-the-badge&logo=tampermonkey)](https://update.greasyfork.org/scripts/518633/JVC%20Smiley%20anim%C3%A9s.user.js)
+    Cliquez sur le bouton "Installer" ci-dessous (ou copiez le code brut depuis [userscript/jvflux-smileys.user.js](userscript/jvflux-smileys.user.js)). Cela devrait ouvrir automatiquement votre gestionnaire de userscripts.
 
 
-3. **Enable the Script:** Make sure the script is enabled in your userscript manager.  That's it!  Head over to JVFlux (or the target forum) and enjoy the animated smileys!
+    [![Installer le Userscript](https://img.shields.io/badge/Installer%20le%20Userscript-Cliquez%20ici-brightgreen?style=for-the-badge&logo=tampermonkey)](https://update.greasyfork.org/scripts/518633/JVC%20Smiley%20anim%C3%A9s.user.js)
 
-## Contributing
 
-Contributions are welcome! 
+3. **Activer le script :** Assurez-vous que le script est activé dans votre gestionnaire de userscripts. C'est tout ! Rendez-vous sur JVFlux (ou le forum cible) et profitez des smileys animés !
+
+## Contribution
+
+Les contributions sont les bienvenues !
 
 
 ## License
