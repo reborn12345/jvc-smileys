@@ -1,14 +1,14 @@
 import shutil  # for cleanup
 from pathlib import Path
 
-from src.download_smileys_jvflux import SmileyDownloaderJvFlux as DownloaderJvflux
-from src.download_smileys_jvarchive import SmileyDownloaderJva as DownloaderJvarchive
+from src.download_smileys_jvflux import SmileyDownloaderJvFlux
+from src.download_smileys_jvarchive import SmileyDownloaderJva
 
 
 def test_smiley_download_jvflux():
     url = "https://jvflux.fr/JVFlux:Liste_des_smileys"
     test_dir = Path("test_smileys_jvflux")  # Test directory
-    downloader = DownloaderJvflux(url, download_dir=test_dir)
+    downloader = SmileyDownloaderJvFlux(url, download_dir=test_dir)
 
     try:
         downloader.download_smileys()
@@ -25,7 +25,7 @@ def test_smiley_download_jvflux():
 def test_smiley_download_jvarchive():
     url = "https://jvarchive.com/static/smileys/"
     test_dir = Path("test_smileys_jvarchive")  # Test directory
-    downloader = DownloaderJvarchive(url, download_dir=test_dir)
+    downloader = SmileyDownloaderJva(url, output_dir==test_dir)
 
     try:
         downloader.download_all()
