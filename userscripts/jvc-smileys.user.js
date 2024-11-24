@@ -125,6 +125,10 @@
         });
     }
 
+    // Exporter la fonction restaurerSmileys
+    window.restaurerSmileys = restaurerSmileys;
+
+    
     // Initial replacement
     restaurerSmileys();
 
