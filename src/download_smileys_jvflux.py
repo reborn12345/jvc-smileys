@@ -4,7 +4,7 @@ import requests
 from bs4 import BeautifulSoup
 
 
-class SmileyDownloader:
+class SmileyDownloaderJvFlux:
     def __init__(self, url, download_dir="smileys"):
         self.url = url
         self.download_dir = Path(download_dir)
@@ -36,5 +36,5 @@ class SmileyDownloader:
 
 if __name__ == "__main__":
     url = "https://jvflux.fr/JVFlux:Liste_des_smileys"  # URL Jvflux contenant la liste de tous les smileys
-    downloader = SmileyDownloader(url)
+    downloader = SmileyDownloaderJvFlux(url)
     downloader.download_smileys()

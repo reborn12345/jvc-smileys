@@ -3,7 +3,7 @@ import requests
 from pathlib import Path
 
 
-class SmileyDownloader:
+class SmileyDownloaderJva:
     """Télécharge les smileys de jvarchive.com."""
 
     def __init__(self, url, output_dir="smileys", mapping_file="smiley_mapping.json"):
@@ -62,5 +62,5 @@ class SmileyDownloader:
 
 if __name__ == "__main__":
     url = "https://jvarchive.com/static/smileys/"
-    downloader = SmileyDownloader(url)
+    downloader = SmileyDownloaderJva(url)
     downloader.download_all()
