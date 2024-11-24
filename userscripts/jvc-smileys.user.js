@@ -1,14 +1,12 @@
 // ==UserScript==
 // @name         JVC Smiley animés
 // @namespace    https://violentmonkey.github.io/
-// @version      1.0
+// @version      1.0.6
 // @description  Réactive les smileys animés sur le forum jeuxvideo.com
 // @author       HulkDu92
 // @match        https://www.jeuxvideo.com/*
 // @homepageURL  https://github.com/reborn12345/jvc-smileys
 // @supportURL   https://github.com/reborn12345/jvc-smileys/issues
-// @downloadURL  https://update.greasyfork.org/scripts/518633/JVC%20Smiley%20anim%C3%A9s.user.js
-// @updateURL    https://update.greasyfork.org/scripts/518633/JVC%20Smiley%20anim%C3%A9s.meta.js
 // @grant        none
 // @license      MIT
 // ==/UserScript==

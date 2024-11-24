@@ -29,9 +29,9 @@ Ce projet fournit un script Python pour télécharger les GIFs des smileys de JV
 **1. Téléchargement des Smileys:**
 
 * **Utilisation du script:**
-    * Clonez ce dépôt : `git clone https://github.com/votre-nom-utilisateur/nom-de-votre-depot.git`
+    * Clonez ce dépôt : `git clone https://github.com/reborn12345/jvc-smileys.git`
     * Installez les paquets requis : `pip install -r requirements.txt`
-    * Exécutez le script : `python src/download_smileys.py`
+    * Exécutez le script : `python src/download_smileys_jvarchive.py`
 
 Les smileys seront téléchargés dans le répertoire `smileys` de votre projet.
 
@@ -44,7 +44,7 @@ Les smileys sont également hébergés sur GitHub Pages, permettant un accès di
 
 ## Intégration Userscript
 
-Agrémentez votre expérience JVFlux (ou autre forum) avec des smileys animés ! Ce projet inclut un userscript qui intègre de manière transparente les smileys téléchargés, remplaçant les smileys statiques par défaut par des GIFs animés dynamiques.
+Ce projet inclut un userscript qui intègre dans JVC de manière transparente les smileys téléchargés, remplaçant les smileys statiques par défaut par des GIFs animés dynamiques.
 
 **Comment ça marche :**
 

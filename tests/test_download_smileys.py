@@ -1,8 +1,8 @@
 import shutil  # for cleanup
 from pathlib import Path
 
-from download_smileys_jvlux import SmileyDownloader as DownloaderJvflux
-from download_smileys_jvarchive import SmileyDownloader as DownloaderJvarchive
+from src.download_smileys_jvflux import SmileyDownloader as DownloaderJvflux
+from src.download_smileys_jvarchive import SmileyDownloader as DownloaderJvarchive
 
 
 def test_smiley_download_jvflux():
