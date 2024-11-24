@@ -25,7 +25,7 @@ def test_smiley_download_jvflux():
 def test_smiley_download_jvarchive():
     url = "https://jvarchive.com/static/smileys/"
     test_dir = Path("test_smileys_jvarchive")  # Test directory
-    downloader = SmileyDownloaderJva(url, output_dir==test_dir)
+    downloader = SmileyDownloaderJva(url, output_dir=test_dir)
 
     try:
         downloader.download_all()
