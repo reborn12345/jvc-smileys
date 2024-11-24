@@ -1,6 +1,6 @@
 // JVC_Smiley_animés.test.js
 
-const { restaurerSmileys } = require('./JVC_Smiley_animés.user.js'); // Importez la fonction
+const { restaurerSmileys } = require('../../src/JVC_Smiley_animés.user.js'); // Importez la fonction
 
 describe('restaurerSmileys', () => {
   it('remplace l\'image avec l\'URL du smiley animé', () => {
